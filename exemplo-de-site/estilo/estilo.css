@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: ;
+    src: url();
+}
+
+:root {
+    --cor01: #0A0E59;
+    --cor02: #010326;
+    --cor03: #010B40;
+    --cor04: #081459;
+    --cor05: #011140;
+    --cor06: #0B2C4D;
+    --cor07: #D7D9D8;
+    --cor08: #2284E6;
+    --cor09: #040F1A;
+}
+
+header {
+    background-color: #010B40;
+    padding: 10px;
+}
+
+header h1 {
+    text-align: center;
+    color: white;
+}
+
+header > p {
+    text-align: center;
+    color: white;
+}
+
+nav {
+    background-color: var(--cor04);
+    padding: 5px;
+}
+
+nav > a {
+    padding-left: 10px;
+    color: var(--cor07);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav > a:hover {
+    color: #2284E6;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--cor06);
+}
+
+main {
+    background-color: var(--cor07);
+    margin: auto;
+    border-style: solid;
+    border-color:var(--cor05);
+    border-width: 10px;
+    border-radius: 0px 0px 6px 6px;
+    margin-bottom: 10px;
+    text-align: justify;
+    min-width: 320px;
+    max-width: 843px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.233);
+    
+}
+
+main p {
+    padding: 5px;
+    font-weight: 700;
+}
+
+main h2 {
+    padding: 6px;
+    color: var(--cor08);
+}
+
+main h3 {
+    padding: 6px;
+    color: var(--cor03);
+}
+
+main h1 {
+    padding: 6px;
+    color: #0A0E59;
+}
+
+main img {
+  width: 90%;
+  display: block;
+  margin: auto;
+  border-style: solid;
+  border-color: var(--cor03);
+  border-width: 5px;
+}
+
+main strong {
+    color: var(--cor06);
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+footer {
+    background-color: var(--cor03);
+    padding: 3px;
+}
+
+footer > p {
+    color: var(--cor07);
+    text-align: center;
+}
