@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+.video-container {
+    position: relative;
+    width: 600px;
+    margin: auto;
+}
+
+video {
+    width: 100%;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 10px;
+    width: 95%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.controls button,
+.controls input[type="range"] {
+    background-color: #fff;
+    border: none;
+    padding: 5px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.controls button:hover,
+.controls input[type="range"]:hover {
+    background-color: #ddd;
+}
