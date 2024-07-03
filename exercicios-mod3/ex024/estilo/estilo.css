@@ -1,0 +1,98 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'comici';
+    src: url('../font/comici.ttf'), format('truertype');
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+}
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-variant:  small-caps;
+    font-size: 5em;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    font-family: 'comici';
+    font-size: 20px;
+    line-height: 6vh;
+
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagen {
+    background-color: rgb(7, 7, 7);
+    color: white;
+    text-shadow: 1px 1px 0px;
+}
+
+section.imagen > p {
+    background-color: rgba(0, 0, 0, 0.418);
+    width: 300px;
+}
+
+section#img01 {
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section#img02 {
+    background-image: url('../imagens/background002.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 5px;
+}
+
+footer > p {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer a.gustavoguanabara:hover {
+    background-color: rgb(255, 248, 248);
+    border-radius: 5px;
+    transition: 0.2s;
+    color: black;
+    text-decoration: none;
+}

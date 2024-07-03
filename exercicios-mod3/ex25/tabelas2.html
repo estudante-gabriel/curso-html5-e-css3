@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de Tabelas Grandes</title>
+    <style>
+        table {
+            width: 400px;
+            height: 30vh;
+            border: 1px solid black;
+            padding: 10px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead,tfoot {
+            background-color: rgb(31, 29, 29);
+            color: white;
+        }
+
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        caption {
+         font-weight: bold;
+         padding: 10px;
+         font-size: 1.5em;
+         background-color: darkgrey;
+       }
+
+       tbody > tr:nth-child(2n) {
+        background-color: lightgray;
+       }
+
+       td:hover {
+        background-color: rgb(36, 34, 34);
+        color: white;
+       }
+
+       td.total {
+        background-color: rgb(31, 28, 28);
+       }
+
+       thead > tr > th {
+        position: sticky;
+        top: 0;
+        background-color: rgb(31, 29, 29);
+       }
+    </style>
+</head>
+<body>
+    <h1>EXEMPLO DE TABELAS GRANDES</h1>
+    <h1>População por Estados</h1>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">Estados</th>
+                <th scope="col">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td>44 411 238</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>20 538 718</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>16 054 524</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>16 054 524</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td>14 141 626</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td>10 882 965</td>
+            </tr>
+            <tr>
+                <td>Pernanbuco</td>
+                <td>9 058 931</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td>8 794 957</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td>8 121 025</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td>7 610 361</td>
+            </tr>
+            <tr>
+                <td>Goiás</td>
+                <td>7 056 495</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td class="total">162724764</td>
+            </tr>
+        </tfoot>
+        <caption>POPULAÇÃO POR ESTADOS</caption>
+    </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ipsa rerum ab atque nostrum, animi obcaecati dolores veritatis incidunt autem magnam suscipit totam error, porro necessitatibus voluptatum at dicta nihil?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi id debitis, reprehenderit repudiandae nobis officiis magni nam vel perspiciatis neque, reiciendis non vitae impedit quos sit eum? Cumque, perspiciatis corrupti?Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quae harum necessitatibus blanditiis explicabo, quia sit nesciunt ratione consectetur, saepe odit est minus, ex porro id quis non nam reprehenderit!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ipsa rerum ab atque nostrum, animi obcaecati dolores veritatis incidunt autem magnam suscipit totam error, porro necessitatibus voluptatum at dicta nihil?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi id debitis, reprehenderit repudiandae nobis officiis magni nam vel perspiciatis neque, reiciendis non vitae impedit quos sit eum? Cumque, perspiciatis corrupti?Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quae harum necessitatibus blanditiis explicabo, quia sit nesciunt ratione consectetur, saepe odit est minus, ex porro id quis non nam reprehenderit!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ipsa rerum ab atque nostrum, animi obcaecati dolores veritatis incidunt autem magnam suscipit totam error, porro necessitatibus voluptatum at dicta nihil?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi id debitis, reprehenderit repudiandae nobis officiis magni nam vel perspiciatis neque, reiciendis non vitae impedit quos sit eum? Cumque, perspiciatis corrupti?Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quae harum necessitatibus blanditiis explicabo, quia sit nesciunt ratione consectetur, saepe odit est minus, ex porro id quis non nam reprehenderit!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ipsa rerum ab atque nostrum, animi obcaecati dolores veritatis incidunt autem magnam suscipit totam error, porro necessitatibus voluptatum at dicta nihil?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi id debitis, reprehenderit repudiandae nobis officiis magni nam vel perspiciatis neque, reiciendis non vitae impedit quos sit eum? Cumque, perspiciatis corrupti?Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quae harum necessitatibus blanditiis explicabo, quia sit nesciunt ratione consectetur, saepe odit est minus, ex porro id quis non nam reprehenderit!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ipsa rerum ab atque nostrum, animi obcaecati dolores veritatis incidunt autem magnam suscipit totam error, porro necessitatibus voluptatum at dicta nihil?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi id debitis, reprehenderit repudiandae nobis officiis magni nam vel perspiciatis neque, reiciendis non vitae impedit quos sit eum? Cumque, perspiciatis corrupti?Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quae harum necessitatibus blanditiis explicabo, quia sit nesciunt ratione consectetur, saepe odit est minus, ex porro id quis non nam reprehenderit!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ipsa rerum ab atque nostrum, animi obcaecati dolores veritatis incidunt autem magnam suscipit totam error, porro necessitatibus voluptatum at dicta nihil?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi id debitis, reprehenderit repudiandae nobis officiis magni nam vel perspiciatis neque, reiciendis non vitae impedit quos sit eum? Cumque, perspiciatis corrupti?Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quae harum necessitatibus blanditiis explicabo, quia sit nesciunt ratione consectetur, saepe odit est minus, ex porro id quis non nam reprehenderit!</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ipsa rerum ab atque nostrum, animi obcaecati dolores veritatis incidunt autem magnam suscipit totam error, porro necessitatibus voluptatum at dicta nihil?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi id debitis, reprehenderit repudiandae nobis officiis magni nam vel perspiciatis neque, reiciendis non vitae impedit quos sit eum? Cumque, perspiciatis corrupti?Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quae harum necessitatibus blanditiis explicabo, quia sit nesciunt ratione consectetur, saepe odit est minus, ex porro id quis non nam reprehenderit!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ipsa rerum ab atque nostrum, animi obcaecati dolores veritatis incidunt autem magnam suscipit totam error, porro necessitatibus voluptatum at dicta nihil?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi id debitis, reprehenderit repudiandae nobis officiis magni nam vel perspiciatis neque, reiciendis non vitae impedit quos sit eum? Cumque, perspiciatis corrupti?Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quae harum necessitatibus blanditiis explicabo, quia sit nesciunt ratione consectetur, saepe odit est minus, ex porro id quis non nam reprehenderit!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ipsa rerum ab atque nostrum, animi obcaecati dolores veritatis incidunt autem magnam suscipit totam error, porro necessitatibus voluptatum at dicta nihil?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi id debitis, reprehenderit repudiandae nobis officiis magni nam vel perspiciatis neque, reiciendis non vitae impedit quos sit eum? Cumque, perspiciatis corrupti?Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quae harum necessitatibus blanditiis explicabo, quia sit nesciunt ratione consectetur, saepe odit est minus, ex porro id quis non nam reprehenderit!</p>
+</body>
+</html>

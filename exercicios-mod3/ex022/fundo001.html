@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de imagens de fundo</title>
+    <style>
+        div.quadrado {
+            display: inline-block;
+            border: 1px solid black;
+            width: 300px;
+            border-radius: 20px;
+            height: 300px;
+            background-color: rgb(50, 98, 114);
+        }
+
+        div#q1 {
+            background-image: url(imagens/pattern002.png);
+            background-size: cover;
+        }
+
+        div#q2 {
+            background-image: url(imagens/pattern003.png);
+            background-size: cover;
+        }
+
+        div#q3 {
+            background-image: url(imagens/pattern004.png)
+        }
+
+        body {
+            background-image: url(imagens/wallpaper002.jpg);
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="quadrado" id="q1">
+
+    </div>
+    <div class="quadrado" id="q2">
+
+    </div>
+    <div class="quadrado" id="q3">
+
+    </div>
+</body>
+</html>
