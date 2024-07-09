@@ -3,69 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>testes</title>
+    <title>Centralização Vertical de Caixas</title>
     <style>
-        body {
-            height: 100vh;
-            background-color: black;
-            background-image: url("imagens/wallpaper002.jpg");
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-attachment: fixed;
-        }
-
-        header {
-            background-color: darkcyan;
-            text-align: center;
-            margin-bottom: 10px;
-        }
-
-        nav {
-            padding: 5px;
-            background-color: darkblue;
-        }
-
-        nav > a {
-            text-decoration: none;
-            color: black;
+        #container {
+            height: 500px;
+            position: relative;
             padding: 10px;
-            font-weight: bold;
+            background-image: url("imagens/target001.png");
+            background-size: 100% 100%;
+            background-color: purple;
         }
 
-        nav > a:hover {
-            text-decoration: underline;
-        }
+        #conteudo {
+            height: 200px;
+            position: absolute;
+            width: 400px;
+            background-color: yellow;
+            background-image: url("imagens/target001.png");
+            background-size: 100% 100%;
+            transform: translate(-50%, -50%);
 
-        main {
-            background-color: white;
-            border-radius: 10px;
-            padding: 10px;
-            margin: auto;
-            border: 1px solid black;
-            max-width: 600px;
-        }
-
-        * {
-            margin: 0px;
-            padding: 0px;
+            left: 50%;
+            top: 50%;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>TESTE DE SITE COM IMAGENS NO FUNDO</h1>
-        <p>Teste de backgrounds images</p>
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">Blog</a>
-            <a href="#">Notícias</a>
-            <a href="#">Fale Conosco</a>
-        </nav>
-    </header>
-    <main>
-        <h1>Teste de Imagen</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae odit atque sapiente saepe tempore officiis sunt voluptatum ex facere repellat nemo doloribus veniam a id aspernatur nobis ut, consequatur cumque?Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim eaque itaque quae dolore aperiam molestiae nemo. Blanditiis, dolore. Cupiditate quidem nulla velit odio itaque consequatur ipsa cumque. Iusto, praesentium tempora! Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique aut at aliquam deleniti, nostrum hic velit cupiditate a animi dolor cumque, eos sint dolore obcaecati quod? Velit tempora nulla voluptatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati porro suscipit dolores aspernatur esse reprehenderit quasi tempore! Voluptatum, accusantium mollitia exercitationem asperiores, et voluptates excepturi magnam esse facilis aut quae.</p>
-    </main>
+    <section id="container">
+        <article id="conteudo">
+
+        </article>
+    </section>
 </body>
 </html>
